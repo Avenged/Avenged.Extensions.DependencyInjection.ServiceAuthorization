@@ -13,13 +13,18 @@
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageTags>authorization, dependency-injection, aspnetcore, middleware, service-interception, role-based-access, authorize-attribute, castle-dynamicproxy, aop, dotnet, .net, services, secure-services, ioc, proxy, service-authorization, aspnetcore-authorization</PackageTags>
+		<PackageProjectUrl>https://github.com/Avenged/Avenged.Extensions.DependencyInjection.ServiceAuthorization</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Avenged/Avenged.Extensions.DependencyInjection.ServiceAuthorization</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<Copyright>Copyright (c) 2025 Avenged</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Castle.Core" Version="5.2.1" PrivateAssets="all" />
-		<PackageReference Include="Microsoft.AspNetCore.Authorization" Version="6.0.0" PrivateAssets="all" />
-		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" PrivateAssets="all" />
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.6" PrivateAssets="all" />
+		<PackageReference Include="Castle.Core" Version="5.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authorization" Version="6.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>

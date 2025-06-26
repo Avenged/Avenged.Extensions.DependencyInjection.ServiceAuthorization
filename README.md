@@ -91,12 +91,6 @@ public class ProductService : IProductService
 
 ---
 
-## 📎 Notes
-
-- Dependencies such as `Castle.Core`, `Microsoft.AspNetCore.Authorization`, and `Microsoft.AspNetCore.Http.Abstractions` are marked as `PrivateAssets="all"` to avoid version conflicts. You must ensure your application references any necessary packages directly.
-
----
-
 ## 🧪 Example Use Case
 
 ```csharp
@@ -114,4 +108,4 @@ var app = builder.Build();
 
 ## 📄 License
 
-MIT
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit) License.
