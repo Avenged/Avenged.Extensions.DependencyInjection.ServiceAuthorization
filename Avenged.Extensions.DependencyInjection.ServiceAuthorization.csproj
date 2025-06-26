@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<LangVersion>preview</LangVersion>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>Avenged.Extensions.DependencyInjection.ServiceAuthorization</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Avenged</Authors>
+		<Description>IServiceCollection extensions for applying role-based authorization to services.</Description>
+		<Title>Service Authorization</Title>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageTags>authorization, dependency-injection, aspnetcore, middleware, service-interception, role-based-access, authorize-attribute, castle-dynamicproxy, aop, dotnet, .net, services, secure-services, ioc, proxy, service-authorization, aspnetcore-authorization</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Castle.Core" Version="5.2.1" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.AspNetCore.Authorization" Version="6.0.0" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.6" PrivateAssets="all" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="icon.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Update="README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
